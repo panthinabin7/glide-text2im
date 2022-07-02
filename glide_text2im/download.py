@@ -8,12 +8,12 @@ from filelock import FileLock
 from tqdm.auto import tqdm
 
 MODEL_PATHS = {
-    "base": "C:/Users/91914/Desktop/dataset/base.pt",
-    "upsample": "C:/Users/91914/Desktop/dataset/base.pt/upsample.pt",
-    "base-inpaint": "C:/Users/91914/Desktop/dataset/base.pt/base_inpaint.pt",
-    "upsample-inpaint": "C:/Users/91914/Desktop/dataset/base.pt/upsample_inpaint.pt",
-    "clip/image-enc": "C:/Users/91914/Desktop/dataset/base.pt/clip_image_enc.pt",
-    "clip/text-enc": "C:/Users/91914/Desktop/dataset/base.pt/clip_text_enc.pt",
+    "base": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/base.pt",
+    "upsample": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/upsample.pt",
+    "base-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/base_inpaint.pt",
+    "upsample-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/upsample_inpaint.pt",
+    "clip/image-enc": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/clip_image_enc.pt",
+    "clip/text-enc": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/clip_text_enc.pt",
 }
 
 
