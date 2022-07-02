@@ -1,7 +1,7 @@
 """
 Utilities for changing sampling schedules of a trained model.
 
-Simplified from: https://github.com/openai/guided-diffusion/blob/main/guided_diffusion/respace.py
+Simplified from: https://github.com/panthinabin7/guided-diffusion/blob/main/guided_diffusion/respace.py
 """
 
 import numpy as np
